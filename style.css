@@ -903,3 +903,562 @@ header nav a:hover { color: #4de6e6 }
   height: 24px;
   fill: rgba(255, 255, 255, 0.7);
 }
+
+@media (max-width: 1100px) {
+  header {
+    padding: 0 28px;
+  }
+
+  header nav {
+    gap: 20px;
+  }
+
+  header nav a {
+    font-size: 14px;
+  }
+
+  .hero h1 {
+    font-size: 82px;
+    margin-top: 200px;
+  }
+
+  .hero .content {
+    padding: 0 36px;
+  }
+
+  .hero .content p {
+    margin-top: 60px;
+  }
+
+  .characters {
+    width: 480px;
+    height: 440px;
+    transform: translateX(-46%);
+  }
+
+  .online {
+    right: 36px;
+    bottom: 130px;
+  }
+
+  .online strong {
+    font-size: 44px;
+  }
+
+  .features article {
+    width: 92vw;
+    max-width: 960px;
+    height: 400px;
+  }
+
+  .features .caption {
+    padding-bottom: 80px;
+    padding-left: 32px;
+  }
+
+  .features h2 {
+    font-size: 28px;
+  }
+
+  .features .caption p {
+    max-width: 360px;
+    padding-left: 50px;
+  }
+
+  .gallery figure {
+    width: 92vw;
+    max-width: 960px;
+  }
+
+  .gallery figure img {
+    width: 25%;
+  }
+
+  .roles article {
+    width: 100%;
+  }
+
+  .roles .caption {
+    left: 36px;
+  }
+
+  .roles h2 {
+    font-size: 28px;
+  }
+
+  .roles aside {
+    right: 20px;
+    width: 260px;
+  }
+
+  .roles aside > div {
+    width: 260px;
+    height: auto;
+    min-height: 90px;
+  }
+
+  .howto article {
+    width: 100%;
+    padding: 0 28px;
+  }
+
+  .howto .step {
+    width: 100%;
+  }
+
+  .social article {
+    width: 94vw;
+  }
+
+  .social .char-female {
+    left: 100px;
+    height: 260px;
+  }
+
+  .social .char-male {
+    left: 130px;
+    height: 260px;
+  }
+
+  .social .info {
+    right: 80px;
+  }
+
+  .social .icons {
+    right: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0 20px;
+    height: 60px;
+  }
+
+  header > a:first-child img {
+    height: 36px;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  .cta {
+    width: 110px;
+    height: 36px;
+    font-size: 10px;
+    border-radius: 8px;
+  }
+
+  .side-fade {
+    display: none;
+  }
+
+  .hero .content {
+    padding: 0 20px;
+    align-items: flex-start;
+  }
+
+  .hero h1 {
+    font-size: 52px;
+    margin-top: 130px;
+    margin-bottom: 12px;
+    letter-spacing: .1em;
+  }
+
+  .hero .content p {
+    font-size: 14px;
+    max-width: 100%;
+    margin-top: 36px;
+    margin-bottom: 24px;
+    line-height: 1.5;
+  }
+
+  .play {
+    width: 200px;
+    height: 58px;
+    border-radius: 12px;
+    padding: 0 12px 0 24px;
+    gap: 10px;
+  }
+
+  .play span:first-child {
+    font-size: 16px;
+  }
+
+  .play span:last-child {
+    width: 38px;
+    height: 38px;
+  }
+
+  .characters {
+    width: 300px;
+    height: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: .35;
+  }
+
+  .characters .female {
+    left: 20px;
+  }
+
+  .characters .male {
+    right: -50px;
+  }
+
+  .online {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    text-align: center;
+    margin: 28px auto 0;
+    z-index: 10;
+  }
+
+  .online p {
+    text-align: center;
+  }
+
+  .online div {
+    justify-content: center;
+  }
+
+  .online strong {
+    font-size: 34px;
+  }
+
+  .scroll-hint span {
+    font-size: 10px;
+    letter-spacing: .12em;
+  }
+
+  .features {
+    padding: 24px 16px 0;
+  }
+
+  .features article {
+    width: 100%;
+    height: 300px;
+    border-radius: 6px;
+  }
+
+  .features .caption {
+    padding: 0 0 50px 20px;
+  }
+
+  .features h2 {
+    font-size: 20px;
+    gap: 10px;
+    line-height: 1.2;
+  }
+
+  .features h2::before {
+    width: 28px;
+  }
+
+  .features .caption p {
+    font-size: 12px;
+    max-width: 240px;
+    padding-left: 38px;
+  }
+
+  .features nav {
+    right: 14px;
+  }
+
+  .features nav span {
+    font-size: 13px;
+  }
+
+  .gallery {
+    padding: 0 16px;
+  }
+
+  .gallery figure {
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .gallery figure img {
+    width: 50%;
+    height: 110px;
+  }
+
+  .roles {
+    padding-top: 36px;
+  }
+
+  .roles article {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    padding-bottom: 30px;
+  }
+
+  .roles article > img {
+    position: relative;
+    left: 50%;
+    bottom: auto;
+    height: 280px;
+    opacity: .55;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .roles article::after {
+    background: linear-gradient(
+      90deg,
+      rgba(16, 23, 36, 0.7) 0%,
+      transparent 20%,
+      transparent 80%,
+      rgba(16, 23, 36, 0.7) 100%
+    );
+  }
+
+  .roles .glow {
+    display: none;
+  }
+
+  .roles .caption {
+    position: relative;
+    left: 0;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+
+  .roles h2 {
+    font-size: 24px;
+    gap: 10px;
+  }
+
+  .roles h2::before {
+    width: 28px;
+  }
+
+  .roles .caption > p {
+    font-size: 13px;
+    max-width: 100%;
+    padding-left: 38px;
+  }
+
+  .roles aside {
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: none;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .roles aside h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .roles aside > div {
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    padding: 14px 16px;
+  }
+
+  .roles aside > div p {
+    font-size: 13px;
+  }
+
+  .roles nav {
+    justify-content: center;
+    margin-top: 18px;
+  }
+
+  .howto {
+    padding-top: 36px;
+  }
+
+  .howto article {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .howto h2 {
+    font-size: 24px;
+    gap: 10px;
+  }
+
+  .howto h2::before {
+    width: 28px;
+  }
+
+  .howto > article > p {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+
+  .howto .steps {
+    margin-top: 20px;
+    gap: 14px;
+  }
+
+  .howto .step {
+    width: 100%;
+    height: auto;
+    min-height: 90px;
+    flex-wrap: wrap;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .howto .step img,
+  .howto .step .icon-letter {
+    width: 52px;
+    height: 52px;
+    font-size: 34px;
+  }
+
+  .howto .step-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .howto .step-text h3 {
+    font-size: 16px;
+  }
+
+  .howto .step-text p {
+    font-size: 12px;
+  }
+
+  .howto .step a {
+    margin-left: 0;
+    width: 100%;
+    height: 42px;
+    font-size: 13px;
+    border-radius: 8px;
+  }
+
+  .social {
+    padding-top: 36px;
+    padding-bottom: 40px;
+  }
+
+  .social article {
+    width: calc(100% - 32px);
+    height: auto;
+    min-height: 240px;
+    margin: 0 16px;
+    padding: 36px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social .char-female,
+  .social .char-male {
+    display: none;
+  }
+
+  .social .info {
+    position: relative;
+    right: auto;
+    top: auto;
+    text-align: center;
+  }
+
+  .social .info h2 {
+    font-size: 18px;
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .social .info h2::before {
+    display: none;
+  }
+
+  .social .icons {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    margin-top: 24px;
+    justify-content: center;
+  }
+
+  .social .icons a {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero h1 {
+    font-size: 38px;
+    margin-top: 110px;
+  }
+
+  .hero .content p {
+    font-size: 13px;
+  }
+
+  .play {
+    width: 176px;
+    height: 50px;
+  }
+
+  .play span:first-child {
+    font-size: 14px;
+  }
+
+  .play span:last-child {
+    width: 32px;
+    height: 32px;
+  }
+
+  .online strong {
+    font-size: 28px;
+  }
+
+  .characters {
+    width: 240px;
+    height: 260px;
+  }
+
+  .features article {
+    height: 240px;
+  }
+
+  .features h2 {
+    font-size: 17px;
+  }
+
+  .features .caption p {
+    font-size: 11px;
+    max-width: 200px;
+  }
+
+  .gallery figure img {
+    height: 80px;
+  }
+
+  .roles h2 {
+    font-size: 20px;
+  }
+
+  .roles article > img {
+    height: 220px;
+  }
+
+  .howto h2 {
+    font-size: 20px;
+  }
+
+  .howto .step-text h3 {
+    font-size: 15px;
+  }
+
+  .social .info h2 {
+    font-size: 16px;
+  }
+}
